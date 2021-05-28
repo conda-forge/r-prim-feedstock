@@ -23,15 +23,14 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-misc3d
-    - r-rgl
+    - r-plot3d
     - r-scales
   run:
     - r-base
-    - r-misc3d
-    - r-rgl
+    - r-plot3d
     - r-scales
 
 test:
@@ -41,7 +40,7 @@ test:
 
 about:
   home: https://www.mvstat.net/tduong/
-  license: GPL-2 | GPL-3
+  license: GPL-2.0-or-later
   summary: Patient Rule Induction Method (PRIM) for bump hunting in high-dimensional data.
   license_family: GPL3
   license_file:
