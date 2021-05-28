@@ -3,7 +3,7 @@ About r-prim
 
 Home: https://www.mvstat.net/tduong/
 
-Package license: GPL-2 | GPL-3
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-prim-feedstock/blob/master/LICENSE.txt)
 
