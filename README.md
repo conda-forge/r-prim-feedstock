@@ -116,5 +116,5 @@ Feedstock Maintainers
 =====================
 
 * [@FernandezMathieu](https://github.com/FernandezMathieu/)
-* [@conda-forge/](https://github.com/conda-forge//)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
 
